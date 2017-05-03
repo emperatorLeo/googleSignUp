@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "387486552417",
+    "project_id": "project--8843575468073062703"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387486552417:android:41500cd77f0a831d",
+        "android_client_info": {
+          "package_name": "com.independeciatecnologica.logingoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387486552417-u0olb9rq63fmoq5pu6n3529q6v3bj6ol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.independeciatecnologica.logingoogle",
+            "certificate_hash": "01127c4f2a890457cd5f8f1ee64b8e110419f2ba"
+          }
+        },
+        {
+          "client_id": "387486552417-qsrve7fcf6f0sikgkmqd0bg3jls0nu96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8S_GEI8BgYYWPfgJH3T_tsFnYwlXaqFI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
