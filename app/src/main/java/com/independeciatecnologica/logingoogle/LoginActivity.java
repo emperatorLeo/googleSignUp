@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         customButton = (Button)findViewById(R.id.custom_button);
        GoogleSignInOptions options = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                .requestId()
-              // .requestIdToken(R.string.google_id_client)
+               .requestIdToken(getString(R.string.google_cliente_id))
                .requestEmail()
                .build();
 
@@ -80,6 +80,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         if(result.isSuccess()){
             GoogleSignInAccount acc = result.getSignInAccount();
             goToScreen(acc.getDisplayName(),acc.getEmail());
+           Log.i(TAG,"Id Token: "+acc.getIdToken());
         }else{
             Toast.makeText(this,"something went wrong",Toast.LENGTH_LONG).show();
         }
